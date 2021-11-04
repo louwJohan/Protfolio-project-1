@@ -12,12 +12,16 @@ body {
     font-weight: 400;
     letter-spacing: 4px;
 }
+
 #main-img{
     width: 100%;
     height: 500px;
-    background: url(../images/pexels-photo-55781.jpeg) no-repeat center center;
+    background: url(../images/pexels-photo-4500920.jpeg) no-repeat center center;
 }
 
-.menu {
-    color: #fff;
+.menu li {
+    text-align: center;
+    display: inline-block
+
 }
+
