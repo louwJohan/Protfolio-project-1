@@ -84,6 +84,7 @@ a:hover {
 .about h2, p {
     padding: 10px;
     color: #e2e2e0;
+    margin-left: 20px;
 }
 
 /* collapsable */
@@ -185,6 +186,7 @@ input[type='checkbox'] {
     vertical-align: middle;
     padding-top: 20px;
     color: #e2e2e0;
+    letter-spacing: 4px;
 }
 
 .footer li {
@@ -256,9 +258,25 @@ input[type='checkbox'] {
     font-family: inherit;
     color: #1d1311;
     background-color: #7aa5b8;
-    border: 1px solid #1d1311;
+    border: 1px solid #7aa5b8;
     border-radius: 5px;
     margin-top: 20px;
     margin-left: 20px;
+}
 
+/* locations */
+
+.location {
+    padding-top: 200px;
+
+}
+
+.location h2, h3, p, ol, li {
+    color:#e2e2e0;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+
+.location ol {
+    list-style: none;
 }
