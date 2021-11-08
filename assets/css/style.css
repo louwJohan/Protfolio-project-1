@@ -271,7 +271,7 @@ input[type='checkbox'] {
 
 }
 
-.location h2, h3, p, ol, li {
+.location h2, h3, p {
     color:#e2e2e0;
     margin-left: 20px;
     letter-spacing: 2px;
@@ -279,4 +279,14 @@ input[type='checkbox'] {
 
 .location ol {
     list-style: none;
+    margin-left: 20px;
+}
+
+.location h2 {
+    padding-bottom: 20px;
+}
+ 
+.location li {
+    margin-left: 20px;
+    color: #e2e2e0;
 }
