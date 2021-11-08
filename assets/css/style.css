@@ -190,6 +190,7 @@ input[type='checkbox'] {
 .footer li {
     float: right;
     bottom: 10px;
+    list-style: none;
 }
 
 .footer a {
@@ -225,7 +226,7 @@ input[type='checkbox'] {
 .form label {
     font-size: 150%;
     padding: auto;
-    color: #e2e2e0;
+    color: #7aa5b8;
 }
 .form input, select {
     width: 300px;
@@ -233,6 +234,7 @@ input[type='checkbox'] {
     border: 1px solid #1d1311;
     border-radius: 5px;
     background-color: #7aa5b8;
+    margin-left: 20px;
     
 }
 .form {
@@ -243,5 +245,20 @@ input[type='checkbox'] {
 .form p {
     width: 300px;
     padding-left: 20px;
-    color: #e2e2e0;
+    color: #7aa5b8;
+}
+
+.form button {
+    font-size: 100%;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    font-family: inherit;
+    color: #1d1311;
+    background-color: #7aa5b8;
+    border: 1px solid #1d1311;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+
 }
