@@ -139,7 +139,7 @@ input[type='checkbox'] {
 } 
 
 .toggle:checked + .lbl-toggle + .collapsible-content { 
-    max-height: 350px; 
+    max-height: fit-content; 
 } 
 
 .toggle:checked+.lbl-toggle { 
@@ -293,3 +293,46 @@ input[type='checkbox'] {
 
 /* media queries */
 
+@media screen and (max-width:950px) {
+     .header {
+         text-align: left;
+     }
+    
+     #logo {
+         font-size: 150%;
+         padding-top: 5px;
+         margin-left: 10px;
+     }
+
+     .header li {
+         display: block;
+         padding: 0;
+         margin-left: 10px;
+     }
+
+     #main-img {
+         background: url(../images/phone.jpeg) no-repeat center center;
+         padding-top: 200px;
+     }
+
+     #main-img li {
+         display: none;
+     }
+
+     .footer h3 {
+         display: none;
+     }
+
+     .form {
+         background: #1d1311;
+     }
+
+     .form li {
+         font-size: 100%;
+         
+     }
+
+     .locate {
+         margin: 0;
+     }
+}
