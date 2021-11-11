@@ -231,7 +231,7 @@ input[type='checkbox'] {
 
 .form label {
     font-size: 150%;
-    padding: auto;
+    padding: 0;
     color: #7aa5b8;
 }
 .form input, select {
@@ -317,7 +317,7 @@ input[type='checkbox'] {
 
      #main-img {
          background: url(../images/phone.jpeg) no-repeat center center;
-         padding-top: 235px;
+         padding-top: 250px;
      }
 
      #main-img li {
