@@ -219,7 +219,7 @@ input[type='checkbox'] {
 /* form */
 
 .form  {
-    padding-top: 200px;
+    padding-top: 150px;
     width: 100%;
     height: 600px;
 }
@@ -271,7 +271,7 @@ input[type='checkbox'] {
 /* locations */
 
 .location {
-    padding-top: 200px;
+    padding-top: 150px;
 
 }
 
@@ -339,5 +339,9 @@ input[type='checkbox'] {
 
      .locate {
          margin: 0;
+     }
+
+     .location ol, h2, h3, p {
+         margin: 5px;
      }
 }
